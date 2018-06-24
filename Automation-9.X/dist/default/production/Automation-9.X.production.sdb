@@ -1,0 +1,79 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"81 C:\Users\sahil sharma\MPLABXProjects\Automation-9.X\Automation-9.c
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8502 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f45k22.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8724
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S34 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"9511
+[s S42 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S47 . 1 `S34 1 . 1 0 `S42 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES47  1 e 1 @3998 ]
+"13196
+[v _T2CON T2CON `VEuc  1 e 1 @4026 ]
+[s S64 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"13217
+[s S68 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S76 . 1 `S64 1 . 1 0 `S68 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES76  1 e 1 @4026 ]
+"13267
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+"13287
+[v _TMR2 TMR2 `VEuc  1 e 1 @4028 ]
+"13307
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"13396
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"81 C:\Users\sahil sharma\MPLABXProjects\Automation-9.X\Automation-9.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+[v main@i i `i  1 a 2 1 ]
+"101
+} 0
